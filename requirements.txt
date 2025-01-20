@@ -1,0 +1,43 @@
+tqdm
+rich
+ninja
+numpy == 1.26.3
+pandas
+scipy
+scikit-learn
+matplotlib
+opencv-python
+imageio
+imageio-ffmpeg
+omegaconf
+
+einops
+plyfile
+pygltflib
+rembg[gpu,cli]
+
+# for gui
+dearpygui
+
+# for stable-diffusion
+huggingface_hub
+diffusers
+accelerate
+transformers
+
+# for dmtet and mesh export
+xatlas
+trimesh
+PyMCubes
+pymeshlab == 2022.2.post3
+
+# for gradio demo
+gradio
+
+# for dust3r
+roma
+tensorboard
+pyglet<2
+
+-e git+https://github.com/NVlabs/nvdiffrast.git@main#egg=nvdiffrast
+-e git+https://github.com/ashawkey/kiuikit.git@main#egg=kiui
