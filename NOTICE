@@ -1,0 +1,9 @@
+SparseRecon includes code and assets adapted from or vendored with the following projects.
+
+- SparseAGS: sparse-view pose estimation and reconstruction backend, demo structure, and reconstruction utilities.
+- DUSt3R: pose initialization and related model code in the vendored dust3r/ directory.
+- diff-gaussian-rasterization-camera: CUDA rasterization extension under submodules/.
+- simple-knn: CUDA KNN extension under submodules/.
+- liegroups: SE(3)/SO(3) math utilities under submodules/.
+
+Keep upstream copyright notices, licenses, and citation requirements when redistributing this repository.

@@ -1,2 +1,36 @@
 __pycache__/
 .DS_Store
+
+# Python
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.pyd
+*.dll
+
+# Runtime outputs and model weights
+output/
+logs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Third-party build artifacts
+submodules/**/build/
+submodules/**/*.egg-info/
+submodules/**/.ninja_*
+submodules/**/docs/build/
