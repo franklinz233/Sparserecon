@@ -9,7 +9,7 @@ Env Requirement
 1. Clone
 
 ```bash
-git clone --recursive https://github.com/QitaoZhao/SparseAGS.git
+git clone --recursive https://github.com/franklinz233/Sparserecon.git
 ```
 
 2. Create the env:
@@ -36,7 +36,7 @@ pip install ./diff-gaussian-rasterization-camera
 
 
 
-3. Download our 6-DoF Zero123 [checkpoint](https://drive.google.com/file/d/1JJ4wjaJ4IkUERRZYRrlNoQ-tXvftEYJD/view?usp=sharing) and place it under `SparseAGS/checkpoints`.
+3. Download our 6-DoF Zero123 [checkpoint](https://drive.google.com/file/d/1JJ4wjaJ4IkUERRZYRrlNoQ-tXvftEYJD/view?usp=sharing).
 
 ```bash
 mkdir checkpoints
@@ -50,11 +50,11 @@ cd ..
 
 ```bash
 ### preprocess
-python process.py data/name.jpg
+python process.py data/xxx.jpg
 python process.py data
 
 # run single 3D reconstruction
-python run.py --category filename --num_views 8 
+python run.py --category name --num_views 8 
 ```
 
 
